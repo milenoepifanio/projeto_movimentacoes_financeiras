@@ -1,0 +1,81 @@
+city - OK
+country - OK
+state - OK
+
+customers - OK
+accounts - OK
+
+d_month - OK
+d_week - OK
+d_weekday - OK
+d_year - OK
+d_time
+
+transfer_ins - ok
+transfer_out - ok
+pix_moviments - ok
+
+
+MUDAR INT PARA BIGINT NO SCRIPT DO BANCO
+CPF PARA BIGINT
+WEEK_ID, MONTH_ID, YEAR_ID E WEEKDAY_ID, TIME_ID PARA BIGINT
+transaction_requested_at E transaction_completed_at trinmado pra int e convertido para BIGINT
+
+
+
+--- IDEIAS DE ANÁLISE:
+- Quantidade de transferências feitas por Pix em um determinado período de tempo (por exemplo, por mês).
+
+- Frequência absoluta de clientes que enviam uma determinada quantidade de pix no mês. Por exemplo, 45 clientes fizeram entre 20 a 30 transferências Pix naquele mês. 
+
+- Soma dos valores transferidos e soma dos valores recebidos via Pix em um período de tempo (por mês, por exemplo).
+
+- Média do número de transações Pix realizadas e recebidas por cliente em um período de tempo (por mês, por exemplo).
+
+- Taxa de crescimento mensal do número de transações via Pix e o valor total via Pix em um mês comparado ao mês anterior.
+
+- Número de transações Pix realizadas por mês segmentadas por variáveis demográficas (idade, faixa etária, localização etc).
+
+- Comparação entre usuários e não usuários: Análise da diferença em comportamento financeiro entre clientes que usam Pix e aqueles que não usam, avaliando fatores como frequência de transações e valor médio.
+
+- Segmentação de clientes: Identificação de segmentos de clientes com base no comportamento de uso do Pix, como clientes frequentes, clientes esporádicos, e clientes que não utilizam mais o serviço.
+
+- Comparação entre canais de transferência: Avaliação do volume e valor das transferências Pix em comparação com outros canais, como TED e DOC, para entender a preferência do cliente.
+
+- Visualização geográfica das transações: Mapa que mostra a distribuição geográfica das transações Pix, identificando áreas com maior ou menor uso.
+
+- Análise de frequência de uso por cliente: Identificação de clientes que utilizam o Pix com maior ou menor frequência, ajudando a direcionar ações de marketing e retenção.
+
+- Média de tempo de aprovação de um pix
+
+
+
+
+
+Métricas abordadas na questão 3:
+
+Métricas de Volume
+- Total de Transações
+- Valor Total das Transações PIX
+- Comparação Pix vs In/Out
+
+Metricas de Aquisição
+- Novos usuários
+- Usuários Ativos
+- Análise de recorrência
+-
+
+Metricas de Retenção e Churn
+- Taxa de Retenção de Clientes
+- Taxa de Churn
+-
+
+Metricas Operacionais
+- Taxa de sucesso e falhas de transações (por mês)
+- Aceitabilidade (Taxa de usuários que já fizeram pix)
+- 
+
+
+
+
+- 
